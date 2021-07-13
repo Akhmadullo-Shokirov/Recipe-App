@@ -183,6 +183,7 @@ searchBtn.addEventListener("click", async () => {
     }
 });
 
+
 closePopupBtn.addEventListener("click", () => {
     mealPopup.classList.add("hidden");
     mealInfoEl.innerHTML = "";
