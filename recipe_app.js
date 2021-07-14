@@ -171,6 +171,7 @@ function addMealToFav(mealData) {
     favoriteMealsContainer.appendChild(favMeal);
 }
 
+// add event handler to the search button
 searchBtn.addEventListener("click", async () => {
     mealsEl.innerHTML = "";
     const search = searchTerm.value;
