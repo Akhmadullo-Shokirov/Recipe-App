@@ -189,6 +189,7 @@ closePopupBtn.addEventListener("click", () => {
     mealInfoEl.innerHTML = "";
 });
 
+// added Event handler when "Enter" keyword is pressed on search input
 searchTerm.addEventListener("keyup", (e) => {
     if(e.keyCode === 13) {
         searchBtn.click();
